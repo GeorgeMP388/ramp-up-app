@@ -42,7 +42,7 @@ The objective of this challenge is to set up git-flow on a bitbucket repository.
  - Clone the repo and create **n FIXME** branches
 
 ```bash
-git clone https://[user]@bitbucket.endava.com/scm/bd/devops-rampup.git
+git clone https://github.com/GeorgeMP388/ramp-up-app.git
 ```
 To complete the challenge, create a branching strategy, provide a diagram of how the git flow works and the commands needed to interact to it for each actor in a software delivery team (developer, design lead, tester)
 
