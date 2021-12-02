@@ -81,25 +81,15 @@ Additional steps for this setup.
   - Set up a DMZ with a proxy server (Nginx is recommended).
   - Use RDS service to create a read replica in one of the AZs.
 
-### 3. CI/CD
 
-To complete this challenge, create all the Jenkins jobs needed to automate CI/CD on the newly created environment. Check the application folders create separate repos and deploy them automatically every time there's a new change in the code repository. If you feel like using a different CI tool, please do!
-
-### 4. Infrastructure as a code
+### 3. Infrastructure as a code
 
 To complete this challenge, choose tool and create the necessary scripts to automate the provisioning of the environments for the application.
 
-### 5. Configuration Management
-
-To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. See the 2 application folders in order to find out what are their dependencies. Some of the tools we use are Chef, Puppet, and Ansible.
-
-### 6. Monitoring
-To complete this challenge, define a tool stack, install and set up a monitoring strategy for the environments.
-
-### 7. Containerization
+### 4. Containerization
 To complete this challenge, create registry, dockerfiles and images for the installed apps.
 
-### 8. Orchestration and clustering
+### 5. Orchestration and clustering
 ***Deploy the applicaction in a k8s cluster***
 
 Some of the steps needed:
@@ -117,6 +107,15 @@ Notes:
 *No downtime in the deployments*
 
 
-### 10. Showcase challenge
+### Optional. Showcase challenge
 
 If you still have time to spare, create your own challenge and show the rest of us the implementation of other DevOps dealings. Examples: Artifact Repository configuration, Test Automation Frameworks integration, Database deployment automation, packaging management automation, build scripting frameworks, release management tools, etc.
+
+### Optional CI/CD
+
+To complete this challenge, create all the Jenkins jobs needed to automate CI/CD on the newly created environment. Check the application folders create separate repos and deploy them automatically every time there's a new change in the code repository. If you feel like using a different CI tool, please do!
+
+### optional Configuration Management
+
+To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. See the 2 application folders in order to find out what are their dependencies. Some of the tools we use are Chef, Puppet, and Ansible.
+
