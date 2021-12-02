@@ -1,6 +1,6 @@
 # DevOps Ramp-up Projects
 
-Welcome to the Endava Bogotá DevOps Ramp Up site. DevOps has a wide variety of practices, tools and methodologies which enable us to be an important part of and agile delivery culture. Most of the DevOps practitioners are part of the Continuous Delivery Practice. More info on the practice can be found here:
+Welcome to the Endava Buenos Aires DevOps Ramp Up site. DevOps has a wide variety of practices, tools and methodologies which enable us to be an important part of and agile delivery culture. Most of the DevOps practitioners are part of the Continuous Delivery Practice. More info on the practice can be found here:
 
 https://conf.endava.com/display/CDP/Continuous+Delivery+Practice
 
@@ -35,13 +35,6 @@ https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS101x+1T2020/home
 - Bash Shell Scripting II
 - Local Security Principles
 
-
-***BIWEEKLY ACTIVITIES:*** 
-
-Fortnightly activities will be carried out. This activities takes turns every 15 days and should be planned and executed by the mentor/mentee(owned by the mentee) in order to reinforce the themes of the week book chapter. The activity can be anything you want, from a game to a workshop. 
-The main idea is to share your ideas, experiences in an meaningful and fun way.
-
-*Week-by-week linux themes are in the archives of the teams group(Introduction to Linux)*
 ### 1. SCM: Set up git-flow
 
 The objective of this challenge is to set up git-flow on a bitbucket repository. You will be provided with access to create the branch strategy you need.
@@ -53,41 +46,12 @@ git clone https://[user]@bitbucket.endava.com/scm/bd/devops-rampup.git
 ```
 To complete the challenge, create a branching strategy, provide a diagram of how the git flow works and the commands needed to interact to it for each actor in a software delivery team (developer, design lead, tester)
 
-*For more information about the challenge go to the team group files(Git challenge File)*
 
 ### 2. Cloud Environment
 
 The objective of this challenge is to set up the cloud environment on which the application will run, whether is Azure, AWS or GCP. To complete this challenge, create the environments to run the application you cloned in the last environment.
 
 There are 2 setups. Create at least the first one to complete the Challenge.
-
-
-#### Azure SetUp 1
-
-![alt text][azurelogo1]
-
-[azurelogo1]:AzureSetup1.jpeg "AzureFirstSetUp"
-
-Some of the steps needed:
- - Create an Azure account
- - Setup a Virtual Network.
- - Create a public and a private subnets. Associate them to the Vnet.
- - Create a public IP and a load balancer.
- - Create as Network Security Groups as needed (Security).
- - Setup Virtual Machines for each case.
-
-#### Azure SetUp 2
-In case you already have some knowledge on Azure basics, this setup is meant to create a high availability architecture. This one is optional.
-  ![alt text][azurelogo2]
-
- [azurelogo2]:AzureSetup2.jpeg "AzureSecondSetUp"
-
-Additional steps for this setup.
-  - Setup an Azure Application Gateway. Consider improve the security using WAF.
-  - Create a new subnet in the second availability zone.
-  - Configure Availability Sets for all virtual machines (Jumpbox is not included).
-  - Evaluate the option to add a new load balancer for the backend service.
-  - Implement a replica set for Azure Database for Mysql.
 
 ### AWS SetUp 1
 
@@ -117,21 +81,6 @@ Additional steps for this setup.
   - Set up a DMZ with a proxy server (Nginx is recommended).
   - Use RDS service to create a read replica in one of the AZs.
 
-### GCP SetUp 1
-
-![alt text][GCPlogo1]
-
-[GCPlogo1]:GCPSetup1.png "GCPFirstSetUp"
-
-Some of the steps needed:
-
-  - Create an GCP account.
-  - Setup a custom VPC.
-  - Create a public and a private VPC.
-  - Create route tables.
-  - Setup a connection to internet (Cloud NAT).
-  - Create ACL ans SG's (Security).
-  - Setup VMs
 ### 3. CI/CD
 
 To complete this challenge, create all the Jenkins jobs needed to automate CI/CD on the newly created environment. Check the application folders create separate repos and deploy them automatically every time there's a new change in the code repository. If you feel like using a different CI tool, please do!
@@ -167,17 +116,6 @@ Notes:
 *Make sure just the web app is exposed to the internet*
 *No downtime in the deployments*
 
-
-### Azure SetUp k8s
-
-![alt text][azlogo]
-
-[azlogo]:AZSetupk8s.png "AZk8sSetUp"
-### GCP SetUp k8s
-
-![alt text][GCPlogo2]
-
-[GCPlogo2]:GCPSetupk8s.png "GCPk8sSetUp"
 
 ### 10. Showcase challenge
 
