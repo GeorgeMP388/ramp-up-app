@@ -95,11 +95,11 @@ To complete this challenge, create registry, dockerfiles and images for the inst
 Some of the steps needed:
 
 - Package the application into a Docker image
-- Upload the Docker image to Artifact Registry
+- Upload the Docker image to Artifact Registry (optional)
 - Create/setup a Kubernetes Cluster, tools to use: kubeadm, kubelet and kubectl
 - Create all the require Services to deploy the app.
 - Expose the app to the internet
-- Deploy a new version of the app from the pipeline.
+- Deploy a new version of the app from the pipeline. (optional CI/CD)
 
 Notes: 
 *Use Secrets and config maps to handle the configurations*
