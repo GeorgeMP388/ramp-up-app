@@ -11,9 +11,9 @@ This ramp-up is presented in challenges. Each challenge is chose to show new joi
 
 ## Challenges
 
-You are going to set up a Continuous Delivery pipeline for an application from scratch. In challenges 1 to 4, you will have to set up the Source Code Management tool and branching methodologies, set up cloud based environments for the application, gain experience with configuration management tools, and setting up Continuous Integration. All challenges are meant to use the same application.
+In challenges 1 to 3, you will have to set up the Source Code Management tool and branching methodologies, set up cloud based environments for the application and  gain experience with iaC tools. All challenges are meant to use the same application.
 
-Challenges 5 to 8 build upon your pipeline to include more practices. These ones are more open for you to choose the tool stack of your preference.
+Challenges 4 and 5 build upon your pipeline to include more practices. These ones are more open for you to choose the tool stack of your preference.
 
 ### 0. Linux Basics
 There are a lot of things to know and learn about Linux. For this reason, this challenge would be split in two parts:
