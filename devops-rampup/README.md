@@ -49,7 +49,7 @@ To complete the challenge, create a branching strategy, provide a diagram of how
 
 ### 2. Cloud Environment
 
-The objective of this challenge is to set up the cloud environment on which the application will run, whether is Azure, AWS or GCP. To complete this challenge, create the environments to run the application you cloned in the last environment.
+The objective of this challenge is to set up the cloud environment on which the application will run. To complete this challenge, create the environments to run the application you cloned in the last environment.
 
 There are 2 setups. Create at least the first one to complete the Challenge.
 
@@ -69,7 +69,7 @@ Some of the steps needed:
   - Create ACL ans SG's (Security).
   - Setup an EC2 instances.
 
-#### AWS SetUp 2
+#### AWS SetUp 2 (optional)
 In case you already have some knowledge on AWS basics, this setup is meant to create a high availability architecture. This one is optional.
   ![alt text][awslogo2]
 
